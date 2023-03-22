@@ -7,13 +7,19 @@ Python Thumbnail Generator is a simple program that helps you create thumbnails 
 2. ) PIL (Python Imaging Library)
 
 ## Installation
-Clone this repository: `git clone https://github.com/itachi1621/PythonThumbnailGenerator.git`
-Install PIL:```
-Copy code pip install pillow```
+1. ) Clone this repository:  
+```
+git clone https://github.com/itachi1621/PythonThumbnailGenerator.git
+```
+2. ) Install PIL: 
+```
+pip install pillow
+```
 
 ## Usage
-1.) Open your terminal and navigate to the directory where you have cloned this repository.
-2.) Run `python thumbnail_generator.py -h` to see the list of available commands and options.
+1.)  Open your terminal and navigate to the directory where you have cloned this repository.
+
+2.)  Run `python thumbnail_generator.py -h` to see the list of available commands and options.
 
 ```Copy code 
 usage: thumbnail_generator.py [-h] [--width WIDTH] [--height HEIGHT] input_dir output_dir
@@ -28,10 +34,15 @@ options:
   -h, --help       show this help message and exit
   --width WIDTH    Width of the thumbnail
   --height HEIGHT  Height of the thumbnail
-
 ```
-3.) To create a thumbnail, `run python thumbnail_creator.py  /path/to/images /path/to/thumbnails` .
-This command will create thumbnails for all images in the /path/to/images directory as well as in any subdirectories.
+
+3.) To create a thumbnail, run 
+
+ ```
+ python thumbnail_creator.py  /path/to/images /path/to/thumbnails
+ ```
+
+This command will create thumbnails for all images in the `/path/to/images directory` as well as in any subdirectories.
 
 
 ## License
